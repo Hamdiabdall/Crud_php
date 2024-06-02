@@ -1,0 +1,63 @@
+/* Styles généraux pour le formulaire */
+fieldset {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 20px auto; /* Mise à jour pour centrer le formulaire */
+    padding: 20px;
+    max-width: 600px; /* Mise à jour pour augmenter la largeur */
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+form {
+    margin: 0;
+}
+
+/* Styles pour la table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Styles pour les champs de saisie */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    width: calc(100% - 16px); /* Ajustement pour les paddings */
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour les boutons */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #45a049;
+}
